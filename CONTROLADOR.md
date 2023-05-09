@@ -11,11 +11,11 @@ const User = use('App/Models/User')
 
 class AuthController {
   showRegisterForm ({ view }) {
-    return view.render('auth.register')
+    return view.render('register')
   }
 
   showLoginForm ({ view }) {
-    return view.render('auth.login')
+    return view.render('login')
   }
 
   async register ({ request, response }) {
