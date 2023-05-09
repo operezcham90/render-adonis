@@ -30,11 +30,11 @@ ENV_SILENT=true
 * Agregar variables de ambiente 🔐
 ```
 DB_CONNECTION=pg
-DB_HOST=
-DB_PORT=
-DB_USER=
-DB_PASSWORD=
-DB_DATABASE=
+DB_HOST=dpg-chdbi13hp8u409c0d7v0-a
+DB_PORT=5432
+DB_USER=adonis_qkf6_user
+DB_PASSWORD=xEa3NSwI35jTHggP1lBFA5HfVQEpH20I
+DB_DATABASE=adonis_qkf6
 ```
 
 * Cambiar el comando de construcción 🚧 `npm install;node ace migration:run --force`
