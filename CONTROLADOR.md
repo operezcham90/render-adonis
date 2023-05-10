@@ -26,7 +26,7 @@ module.exports = AuthController
 4. Agrega `showLoginForm()`: Este método se encarga de mostrar la vista de inicio de sesión al usuario. Utiliza el método `render` del objeto `view` que se le pasa como parámetro para renderizar la vista `login`.
 
 ```javascript
-  showLoginForm () {
+  showLoginForm ({ view }) {
     return view.render('login')
   }
 ```
