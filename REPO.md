@@ -1,5 +1,21 @@
 # Usando Repositorios
 
+La sección de dependencias en un archivo de configuración es importante porque permite especificar qué bibliotecas o paquetes externos son necesarios para que el proyecto o la aplicación funcione correctamente. Cuando se instalan o se actualizan las dependencias, se descargan las versiones especificadas para que estén disponibles en el entorno de desarrollo y se puedan utilizar en el código del proyecto.
+
+```json
+"dependencies": {
+    "@octokit/rest": "^17.8.0"
+}
+```
+
+- `"dependencies"`: Este es un objeto que representa las dependencias del proyecto o la aplicación. Las dependencias son paquetes o bibliotecas externas que se utilizan en el proyecto.
+
+- `"@octokit/rest"`: Esto es el nombre del paquete o biblioteca que se está agregando como dependencia. En este caso, se trata de "@octokit/rest", que es una biblioteca de cliente para la API de GitHub proporcionada por la organización Octokit. Esta biblioteca permite interactuar con la API de GitHub de manera más sencilla y conveniente.
+
+- `"^17.8.0"`: Esta es la versión mínima requerida de la biblioteca "@octokit/rest". El prefijo "^" indica que se requiere una versión igual o superior a la versión especificada, pero que no debe exceder la próxima versión mayor. En este caso, se especifica que se necesita una versión igual o superior a la versión 17.8.0, pero no se deben usar versiones 18.x.x o superiores.
+
+# Código
+
 ```javascript
 const { Octokit } = require("@octokit/rest");
 ```
