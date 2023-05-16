@@ -10,7 +10,7 @@ class HomeController {
         })
         const fs = require('fs')
         const buff = fs.readFileSync('hola')
-        const file = await octokit.rest.repos.createOrUpdateFileContents({
+        const file = await octokit.repos.createOrUpdateFileContents({
             owner: 'operezcham90',
             repo: 'prueba-octokit',
             path: 'hola',
