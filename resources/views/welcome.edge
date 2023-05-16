@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8" />
-  <title>Hello Adonis</title>
-  {{ style('style') }}
+  <meta charset="UTF-8">
+  <title>Hola</title>
 </head>
+
 <body>
-  <section>
-    <div class="logo"></div>
-    <div class="title"></div>
-    <div class="subtitle">
-      <p>AdonisJs simplicity will make you feel confident about your code</p>
-      <p>
-        Don't know where to start? Read the <a href="https://adonisjs.com/docs">documentation</a>.
-      </p>
-    </div>
-  </section>
+  <h1>Hola</h1>
+  @loggedIn
+  <h1>Hola, {{ auth.user.username }} ✋</h1>
+  @else
+  <p>No haz iniciado sesión 💔</p>
+  @endloggedIn
 </body>
+
 </html>

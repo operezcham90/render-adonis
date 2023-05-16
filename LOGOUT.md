@@ -67,11 +67,11 @@ Este método obtiene el usuario autenticado a través del objeto `auth` de Adoni
   </head>
   <body>
     <h1>Hola</h1>
-@loggedIn
-    <h1>Hola, {{ auth.user.username }} ✋</h1>
-@else
+  @if (user)
+    <h1>Hola, {{ user.username }} ✋</h1>
+  @else
     <p>No haz iniciado sesión 💔</p>
-@endloggedIn
+  @endif
   </body>
 </html>
 ```
