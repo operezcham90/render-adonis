@@ -11,10 +11,13 @@
   <form action="/register" method="post">
     {{ csrfField() }}
     <label for="username">Nombre de usuario:</label><br>
-    <input type="text" id="username" name="username"><br>
+    <input type="text" name="username" value="{{ old('username', '') }}"><br>
+    {{ elIf('<span>$self</span><br>', getErrorFor('username'), hasErrorFor('username')) }}
     <label for="email">Correo electrónico:</label><br>
-    <input type="email" id="email" name="email"><br>
+    <input type="email" name="email" value="{{ old('email', '') }}"><br>
+    {{ elIf('<span>$self</span><br>', getErrorFor('email'), hasErrorFor('email')) }}
     <label for="password">Contraseña:</label><br>
+    {{ elIf('<span>$self</span><br>', getErrorFor('password'), hasErrorFor('password')) }}
     <input type="password" id="password" name="password"><br>
     <br>
     <input type="submit" value="Registrarse">

@@ -10,9 +10,21 @@ class AuthController {
         return view.render('login')
     }
     async register({ request, response }) {
+        const rules = {
+            user: 'required',
+            email: 'required|email|unique:users,email',
+            password: 'required'
+        }
+        const validation = await validate(request.all(), rules)
+        if (validation.fails()) {
+            session
+                .withErrors(validation.messages())
+                .flashExcept(['password'])
+            return response.redirect('back')
+        }
         const userData = request.only(['username', 'email', 'password'])
         await User.create(userData)
-        return response.redirect('/')
+        return response.redirect('/login')
     }
     async login({ request, response, auth }) {
         const { email, password } = request.all()
