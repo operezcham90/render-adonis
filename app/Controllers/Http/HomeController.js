@@ -17,7 +17,7 @@ class HomeController {
         const data = {
             owner: 'operezcham90',
             repo: 'prueba-octokit',
-            path: name.split('/')[1],
+            path: name,
             message: '💬',
             content: buff.toString('base64')
         }
