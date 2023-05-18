@@ -12,8 +12,8 @@ class AuthController {
     }
     async register({ request, session, response }) {
         const rules = {
-            user: 'required',
-            email: 'required|email|unique:users,email',
+            username: 'required',
+            email: 'required|email',
             password: 'required'
         }
         const validation = await validate(request.all(), rules)
