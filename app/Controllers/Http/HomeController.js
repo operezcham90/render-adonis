@@ -1,3 +1,5 @@
+const Env = use('Env')
+const Hash = use('Hash')
 const { Octokit } = require("@octokit/rest")
 const fs = require('fs')
 
@@ -8,17 +10,19 @@ class HomeController {
 
     async upload({ response }) {
         const octokit = new Octokit({
-            auth: process.env.GITHUB_TOKEN || ''
+            auth: Env.get('GITHUB_TOKEN', '')
         })
         const buff = fs.readFileSync('mensaje')
-        const file = await octokit.repos.createOrUpdateFileContents({
+        const name = await Hash.make(Math.random())
+        const data = {
             owner: 'operezcham90',
             repo: 'prueba-octokit',
-            path: 'mensaje',
-            message: 'upload',
+            path: name,
+            message: '💬',
             content: buff.toString('base64')
-        })
-        return response.json(file)
+        }
+        const ack = await octokit.repos.createOrUpdateFileContents(data)
+        return response.json(ack.data.content.sha)
     }
 }
 
