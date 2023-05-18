@@ -19,6 +19,8 @@ class AuthController {
         const messages = {
             'username.required': 'El campo nombre de usuario es obligatorio.',
             'email.required': 'El campo correo electrónico es obligatorio.',
+            'username.unique': 'El nombre de usuario ya está ocupado.',
+            'email.unique': 'El correo electrónico ya está ocupado.',
             'email.email': 'El campo correo electrónico debe ser una dirección de correo válida.',
             'password.required': 'El campo contraseña es obligatorio.'
         }
