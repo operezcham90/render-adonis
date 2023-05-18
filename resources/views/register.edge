@@ -12,7 +12,7 @@
     {{ csrfField() }}
     <label for="username">Nombre de usuario:</label><br>
     <input type="text" name="username" value="{{ old('username', '') }}"><br>
-    @if (hasErrorFor('username'))
+    @if(hasErrorFor('username'))
     <span>{{ getErrorFor('username') }}</span><br>
     @endif
 
