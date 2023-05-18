@@ -12,19 +12,19 @@
     {{ csrfField() }}
     <label for="username">Nombre de usuario:</label><br>
     <input type="text" name="username" value="{{ old('username', '') }}"><br>
-    @if (hasErrorFor('username'))
+    @if(hasErrorFor('username'))
     <span>{{ getErrorFor('username') }}</span><br>
     @endif
 
     <label for="email">Correo electrónico:</label><br>
     <input type="email" name="email" value="{{ old('email', '') }}"><br>
-    @if (hasErrorFor('email'))
+    @if(hasErrorFor('email'))
     <span>{{ getErrorFor('email') }}</span><br>
     @endif
 
     <label for="password">Contraseña:</label><br>
     <input type="password" id="password" name="password"><br>
-    @if (hasErrorFor('password'))
+    @if(hasErrorFor('password'))
     <span>{{ getErrorFor('password') }}</span><br>
     @endif
 
