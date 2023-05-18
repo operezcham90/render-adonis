@@ -12,8 +12,8 @@ class AuthController {
     }
     async register({ request, session, response }) {
         const rules = {
-            username: 'required',
-            email: 'required|email',
+            username: 'required|unique:users,username',
+            email: 'required|email|unique:users,email',
             password: 'required'
         }
         const messages = {
