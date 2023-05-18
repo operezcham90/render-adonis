@@ -16,7 +16,13 @@ class AuthController {
             email: 'required|email',
             password: 'required'
         }
-        const validation = await validate(request.all(), rules)
+        const messages = {
+            'username.required': 'El campo nombre de usuario es obligatorio.',
+            'email.required': 'El campo correo electrónico es obligatorio.',
+            'email.email': 'El campo correo electrónico debe ser una dirección de correo válida.',
+            'password.required': 'El campo contraseña es obligatorio.'
+        }
+        const validation = await validate(request.all(), rules, messages)
         if (validation.fails()) {
             session
                 .withErrors(validation.messages())
