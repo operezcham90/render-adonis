@@ -10,7 +10,7 @@ class AuthController {
     showLoginForm({ view }) {
         return view.render('login')
     }
-    async register({ request, response }) {
+    async register({ request, session, response }) {
         const rules = {
             user: 'required',
             email: 'required|email|unique:users,email',
