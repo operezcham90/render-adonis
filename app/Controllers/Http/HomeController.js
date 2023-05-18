@@ -13,7 +13,7 @@ class HomeController {
             auth: Env.get('GITHUB_TOKEN', '')
         })
         const buff = fs.readFileSync('mensaje')
-        const name = await Hash.make(Math.random())
+        const name = await Hash.make(Math.random() + '')
         const data = {
             owner: 'operezcham90',
             repo: 'prueba-octokit',
