@@ -135,7 +135,7 @@ Los campos de "Correo electrónico" y "Contraseña" son similares al campo "Nomb
 
 Vista completa:
 
-````html
+```html
 <!DOCTYPE html>
 <html>
 
