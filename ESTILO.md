@@ -24,7 +24,7 @@ La [ventana gráfica](https://www.w3schools.com/css/css_rwd_viewport.asp) es el 
 
 ## Google Fonts
 
-[Google Fonts](https://fonts.google.com/) es una biblioteca de fuentes tipográficas proporcionada por Google. Puedes elegir entre una amplia selección de fuentes de alta calidad y utilizarlas en tus proyectos web. Las fuentes se alojan en los servidores de Google, lo que garantiza una entrega rápida y confiable.
+[Google Fonts](https://fonts.google.com/) es una biblioteca de fuentes tipográficas. Las fuentes se alojan en los servidores de Google, lo que garantiza una entrega rápida y confiable.
 
 ## Bootstrap
 
