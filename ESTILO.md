@@ -22,10 +22,13 @@ La [ventana gráfica](https://www.w3schools.com/css/css_rwd_viewport.asp) es el 
 
 [Colormind](http://colormind.io/) es un generador de esquemas de color que utiliza aprendizaje profundo. Puede aprender estilos de color a partir de fotografías, películas y obras de arte populares.
 
+## Google Fonts
+
+[Google Fonts](https://fonts.google.com/) es una biblioteca de fuentes tipográficas proporcionada por Google. Puedes elegir entre una amplia selección de fuentes de alta calidad y utilizarlas en tus proyectos web. Las fuentes se alojan en los servidores de Google, lo que garantiza una entrega rápida y confiable.
+
 ## Bootstrap
 
-[Bootstrap](https://getbootstrap.com/) es un marco de trabajo (framework) de CSS para desarrollo web frontend responsivo y móvil.
-Contiene plantillas de diseño para tipografía, formularios, botones, navegación y otros componentes de interfaz.
+[Bootstrap](https://getbootstrap.com/) es un marco de trabajo (framework) diseñado para crear sitios web responsivos y móviles. Proporciona plantillas de diseño para tipografía, formularios, botones, navegación y otros componentes de interfaz.
 
 ```html
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
