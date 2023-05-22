@@ -21,3 +21,12 @@ La [ventana gráfica](https://www.w3schools.com/css/css_rwd_viewport.asp) es el 
 ## Colormind
 
 [Colormind](http://colormind.io/) es un generador de esquemas de color que utiliza aprendizaje profundo. Puede aprender estilos de color a partir de fotografías, películas y obras de arte populares.
+
+## Bootstrap
+
+[Bootstrap](https://getbootstrap.com/) es un marco de trabajo (framework) de CSS para desarrollo web frontend responsivo y móvil.
+Contiene plantillas de diseño para tipografía, formularios, botones, navegación y otros componentes de interfaz.
+
+```html
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+```
