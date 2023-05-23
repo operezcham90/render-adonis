@@ -9,7 +9,7 @@ Existen diversas herramientas disponibles que nos facilitan la tarea de estiliza
 ⚠ Lo ideal es evitar el uso de imágenes pesadas, sin embargo, hay casos en los que son absolutamente necesarias, como la venta de productos, noticias, etc.
 
 ```html
-<img src="https://imgur.com/z3LcaLw" alt="🦆 patos" width="4000" height="3000">
+<img src="https://imgur.com/z3LcaLw" alt="patos" width="4000" height="3000">
 ```
 
 ## YouTube 🎥
@@ -19,7 +19,7 @@ Existen diversas herramientas disponibles que nos facilitan la tarea de estiliza
 ⚠ Lo ideal es evitar el uso de videos pesados. Sin embargo, en ciertos casos, su inclusión puede ser absolutamente necesaria. Es importante tener en cuenta que YouTube muestra publicidad.
 
 ```html
-<iframe src="https://www.youtube.com/embed/S9hDCskzWSM" title="🐿 ardilla" width="560" height="315" frameborder="0"
+<iframe src="https://www.youtube.com/embed/S9hDCskzWSM" title="ardilla" width="560" height="315" frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen></iframe>
 ```
