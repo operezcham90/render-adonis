@@ -24,6 +24,12 @@ Existen diversas herramientas disponibles que nos facilitan la tarea de estiliza
     allowfullscreen></iframe>
 ```
 
+## Cloudinary 📂
+
+[Cloudinary](https://cloudinary.com/) es una plataforma en línea que brinda servicios de gestión y entrega de archivos de todo tipo, incluyendo imágenes y videos.
+
+⚠ Cloudinary ofrece una amplia gama de servicios para procesar imágenes y videos, pero es importante tener en cuenta las limitaciones y cuotas asociadas, ya que se trata de servicios avanzados.
+
 ## Water.css ♒
 
 [Water.css](https://watercss.kognise.dev/) es una colección de estilos CSS lista para usar que permite que los sitios web simples luzcan un poco más agradables. No es necesario utilizar clases adicionales para aplicar los estilos, lo cual simplifica el proceso de estilización.
