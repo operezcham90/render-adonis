@@ -40,6 +40,14 @@ La [ventana gráfica](https://www.w3schools.com/css/css_rwd_viewport.asp) es el 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
+## Animate.css 🔁
+
+[Animate.css](https://animate.style/) es una biblioteca de animaciones CSS lista para usar. Animate.css te permite agregar fácilmente animaciones llamativas a tus elementos HTML con solo agregar clases CSS.
+
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+```
+
 ## Colormind 🎨
 
 [Colormind](http://colormind.io/) es un generador de esquemas de color que utiliza aprendizaje profundo. Puede aprender estilos de color a partir de fotografías, películas y obras de arte populares.
