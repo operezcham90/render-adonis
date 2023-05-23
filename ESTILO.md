@@ -30,6 +30,8 @@ La [ventana gráfica](https://www.w3schools.com/css/css_rwd_viewport.asp) es el 
 
 [Imgur](https://imgur.com/) es una plataforma en línea para compartir y alojar imágenes de manera gratuita. Una vez que las imágenes están alojadas en Imgur, se generan enlaces directos que se pueden utilizar para mostrar las imágenes en sitios web.
 
+⚠ Lo ideal es evitar el uso de imágenes pesadas en Internet, sin embargo, hay casos en los que son absolutamente necesarias, como la venta de productos, noticias, etc.
+
 ## Bootstrap
 
 [Bootstrap](https://getbootstrap.com/) es un marco de trabajo (framework) diseñado para crear sitios web responsivos y móviles. Proporciona plantillas de diseño para tipografía, formularios, botones, navegación y otros componentes de interfaz.
