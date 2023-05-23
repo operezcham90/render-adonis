@@ -26,7 +26,7 @@ La [ventana gráfica](https://www.w3schools.com/css/css_rwd_viewport.asp) es el 
 
 [Google Fonts](https://fonts.google.com/) es una biblioteca de fuentes tipográficas. Las fuentes se alojan en los servidores de Google, lo que garantiza una entrega rápida y confiable.
 
-# Imgur
+## Imgur
 
 [Imgur](https://imgur.com/) es una plataforma en línea para compartir y alojar imágenes de manera gratuita. Una vez que las imágenes están alojadas en Imgur, se generan enlaces directos que se pueden utilizar para mostrar las imágenes en sitios web.
 
