@@ -44,6 +44,8 @@ La [ventana gráfica](https://www.w3schools.com/css/css_rwd_viewport.asp) es el 
 
 [Colormind](http://colormind.io/) es un generador de esquemas de color que utiliza aprendizaje profundo. Puede aprender estilos de color a partir de fotografías, películas y obras de arte populares.
 
+⚠ Lo ideal es utilizar colores de alto contraste, como blanco y negro, para facilitar la legibilidad del texto.
+
 ## Google Fonts
 
 [Google Fonts](https://fonts.google.com/) es una biblioteca de fuentes tipográficas. Las fuentes se alojan en los servidores de Google, lo que garantiza una entrega rápida y confiable.
