@@ -32,6 +32,10 @@ La [ventana gráfica](https://www.w3schools.com/css/css_rwd_viewport.asp) es el 
 
 ⚠ Lo ideal es evitar el uso de imágenes pesadas en Internet, sin embargo, hay casos en los que son absolutamente necesarias, como la venta de productos, noticias, etc.
 
+```html
+<img src="https://imgur.com/z3LcaLw" alt="🦆 patos" width="4000" height="3000">
+```
+
 ## Bootstrap
 
 [Bootstrap](https://getbootstrap.com/) es un marco de trabajo (framework) diseñado para crear sitios web responsivos y móviles. Proporciona plantillas de diseño para tipografía, formularios, botones, navegación y otros componentes de interfaz.
