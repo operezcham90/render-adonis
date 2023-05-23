@@ -54,6 +54,8 @@ La [ventana gráfica](https://www.w3schools.com/css/css_rwd_viewport.asp) es el 
 
 [Bootstrap](https://getbootstrap.com/) es un marco de trabajo (framework) diseñado para crear sitios web responsivos y móviles. Proporciona plantillas de diseño para tipografía, formularios, botones, navegación y otros componentes de interfaz.
 
+⚠ Bootstrap ofrece numerosas herramientas útiles, pero puede resultar excesivo para proyectos modestos.
+
 ```html
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
 ```
