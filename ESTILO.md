@@ -2,6 +2,12 @@
 
 Existen diversas herramientas disponibles que nos facilitan la tarea de estilizar nuestros sitios web de manera eficiente y profesional. En este documento, exploraremos algunas de estas herramientas.
 
+## Imgur
+
+[Imgur](https://imgur.com/) es una plataforma en línea para compartir y alojar imágenes de manera gratuita. Una vez que las imágenes están alojadas en Imgur, se generan enlaces directos que se pueden utilizar para mostrar las imágenes en sitios web.
+
+⚠ Lo ideal es evitar el uso de imágenes pesadas, sin embargo, hay casos en los que son absolutamente necesarias, como la venta de productos, noticias, etc.
+
 ## Water.css
 
 [Water.css](https://watercss.kognise.dev/) es una colección de estilos CSS lista para usar que permite que los sitios web simples luzcan un poco más agradables. No es necesario utilizar clases adicionales para aplicar los estilos, lo cual simplifica el proceso de estilización.
@@ -25,12 +31,6 @@ La [ventana gráfica](https://www.w3schools.com/css/css_rwd_viewport.asp) es el 
 ## Google Fonts
 
 [Google Fonts](https://fonts.google.com/) es una biblioteca de fuentes tipográficas. Las fuentes se alojan en los servidores de Google, lo que garantiza una entrega rápida y confiable.
-
-## Imgur
-
-[Imgur](https://imgur.com/) es una plataforma en línea para compartir y alojar imágenes de manera gratuita. Una vez que las imágenes están alojadas en Imgur, se generan enlaces directos que se pueden utilizar para mostrar las imágenes en sitios web.
-
-⚠ Lo ideal es evitar el uso de imágenes pesadas en Internet, sin embargo, hay casos en los que son absolutamente necesarias, como la venta de productos, noticias, etc.
 
 ```html
 <img src="https://imgur.com/z3LcaLw" alt="🦆 patos" width="4000" height="3000">
