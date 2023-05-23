@@ -58,7 +58,7 @@ La [ventana gráfica](https://www.w3schools.com/css/css_rwd_viewport.asp) es el 
 
 [IcoMoon](https://icomoon.io/app/) es una aplicación en línea que te permite crear y personalizar conjuntos de iconos vectoriales. Ofrece una amplia biblioteca de iconos predefinidos y también te brinda la opción de importar tus propios diseños.
 
-## Twemoji
+## Twemoji 😃
 
 [Twemoji](https://twemoji-cheatsheet.vercel.app/) proporciona acceso gratuito a los emoticones de Twitter en formato vectorial, lo que te permite utilizarlos en ilustraciones de manera fácil y conveniente.
 
