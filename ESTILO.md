@@ -2,7 +2,7 @@
 
 Existen diversas herramientas disponibles que nos facilitan la tarea de estilizar nuestros sitios web de manera eficiente y profesional. En este documento, exploraremos algunas de estas herramientas.
 
-## Imgur
+## Imgur 📷
 
 [Imgur](https://imgur.com/) es una plataforma en línea para compartir y alojar imágenes de manera gratuita. Una vez que las imágenes están alojadas en Imgur, se generan enlaces directos que se pueden utilizar para mostrar las imágenes en sitios web.
 
@@ -10,6 +10,16 @@ Existen diversas herramientas disponibles que nos facilitan la tarea de estiliza
 
 ```html
 <img src="https://imgur.com/z3LcaLw" alt="🦆 patos" width="4000" height="3000">
+```
+
+## YouTube 🎥
+
+[YouTube](https://www.youtube.com/) es una plataforma en línea para compartir y ver videos de manera gratuita. Permite a los usuarios cargar, almacenar y compartir contenido de video con facilidad.
+
+⚠ Lo ideal es evitar el uso de videos pesados. Sin embargo, en ciertos casos, su inclusión puede ser absolutamente necesaria. Es importante tener en cuenta que YouTube muestra publicidad.
+
+```html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TUW6GksaJSQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
 
 ## Water.css
