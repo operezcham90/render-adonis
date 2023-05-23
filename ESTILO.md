@@ -8,6 +8,10 @@ Existen diversas herramientas disponibles que nos facilitan la tarea de estiliza
 
 ⚠ Lo ideal es evitar el uso de imágenes pesadas, sin embargo, hay casos en los que son absolutamente necesarias, como la venta de productos, noticias, etc.
 
+```html
+<img src="https://imgur.com/z3LcaLw" alt="🦆 patos" width="4000" height="3000">
+```
+
 ## Water.css
 
 [Water.css](https://watercss.kognise.dev/) es una colección de estilos CSS lista para usar que permite que los sitios web simples luzcan un poco más agradables. No es necesario utilizar clases adicionales para aplicar los estilos, lo cual simplifica el proceso de estilización.
@@ -31,10 +35,6 @@ La [ventana gráfica](https://www.w3schools.com/css/css_rwd_viewport.asp) es el 
 ## Google Fonts
 
 [Google Fonts](https://fonts.google.com/) es una biblioteca de fuentes tipográficas. Las fuentes se alojan en los servidores de Google, lo que garantiza una entrega rápida y confiable.
-
-```html
-<img src="https://imgur.com/z3LcaLw" alt="🦆 patos" width="4000" height="3000">
-```
 
 ## Bootstrap
 
