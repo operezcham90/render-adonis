@@ -52,8 +52,6 @@ La [ventana gráfica](https://www.w3schools.com/css/css_rwd_viewport.asp) es el 
 
 ## Font Awesome ✅
 
-[Font Awesome](https://fontawesome.com/search?q=cat&o=r) es una biblioteca de iconos vectoriales. Se puede acceder de forma gratuita a una amplia variedad de iconos, los cuales están disponibles para su descarga gratuita.
-
 [Font Awesome](https://fontawesome.com/search?q=cat&o=r) es una biblioteca de iconos vectoriales, se tiene acceso gratuito a muchos de estos y pueden descargarse libremente.
 
 ## Bootstrap 🚧
