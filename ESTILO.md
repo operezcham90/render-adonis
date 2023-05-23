@@ -19,7 +19,9 @@ Existen diversas herramientas disponibles que nos facilitan la tarea de estiliza
 ⚠ Lo ideal es evitar el uso de videos pesados. Sin embargo, en ciertos casos, su inclusión puede ser absolutamente necesaria. Es importante tener en cuenta que YouTube muestra publicidad.
 
 ```html
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TUW6GksaJSQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/S9hDCskzWSM" title="🐿 ardilla" width="560" height="315" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
 ```
 
 ## Water.css
