@@ -37,3 +37,25 @@ Elementos clave de esta plantilla:
 * `<meta name="viewport" content="width=device-width, initial-scale=1">`: Esta metaetiqueta ayuda a que la página se adapte correctamente en diferentes dispositivos y tamaños de pantalla.
 
 * `<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">`: Este enlace establece la conexión con el archivo CSS de Bootstrap alojado en un servidor externo a través de un CDN. Proporciona los estilos predefinidos de Bootstrap para la página.
+
+## Contenedores responsivos
+
+Los contenedores responsivos te permiten especificar una clase que ocupa el 100% de ancho hasta que se alcance el punto de quiebre especificado, después del cual aplicamos anchos máximos para cada uno de los puntos de quiebre superiores. Por ejemplo, `.container-sm` ocupa el 100% de ancho al principio hasta que se alcanza el punto de quiebre `sm`, donde se escalará con `md`, `lg`, `xl` y `xxl`.
+
+```html
+<div class="container-sm">100% de ancho hasta el punto de quiebre pequeño</div>
+<div class="container-md">100% de ancho hasta el punto de quiebre mediano</div>
+<div class="container-lg">100% de ancho hasta el punto de quiebre grande</div>
+<div class="container-xl">100% de ancho hasta el punto de quiebre extra grande</div>
+<div class="container-xxl">100% de ancho hasta el punto de quiebre extra extra grande</div>
+```
+
+## Contenedores fluidos
+
+Utiliza `.container-fluid` para un contenedor de ancho completo, que abarca todo el ancho del viewport.
+
+```html
+<div class="container-fluid">
+  Contenedor fluido
+</div>
+```
