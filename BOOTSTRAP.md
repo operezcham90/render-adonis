@@ -99,3 +99,29 @@ Agrega la clase `.initialism` a una abreviatura para reducir ligeramente el tama
 ```html
 <p>🌐 <abbr title="Lenguaje de Marcado de Hipertexto" class="initialism">HTML</abbr></p>
 ```
+
+## Imágenes responsivas
+
+Las imágenes en Bootstrap se vuelven responsivas utilizando la clase `.img-fluid`. Esto aplica `max-width: 100%;` y `height: auto;` a la imagen para que se ajuste al ancho del elemento padre.
+
+```html
+<img src="https://i.imgur.com/Po8Aq36.jpg" class="img-fluid" alt="💿">
+```
+
+## Miniaturas de imágenes
+
+Además de nuestras utilidades de `border-radius`, puedes usar la clase `.img-thumbnail` para darle a una imagen un aspecto de borde redondeado de 1px.
+
+```html
+<img src="https://i.imgur.com/Po8Aq36b.jpg" class="img-thumbnail" alt="💿">
+```
+
+## Alineación de imágenes
+
+Alinea las imágenes utilizando las clases de ayuda `float` o las clases de alineación de texto. Las imágenes de nivel de bloque se pueden centrar utilizando la clase de utilidad de margen `.mx-auto`.
+
+```html
+<img src="https://i.imgur.com/Po8Aq36b.jpg" class="rounded float-start" alt="💿">
+<img src="https://i.imgur.com/Po8Aq36b.jpg" class="rounded float-end" alt="💿">
+<img src="https://i.imgur.com/Po8Aq36b.jpg" class="rounded mx-auto d-block" alt="💿">
+```
