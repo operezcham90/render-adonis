@@ -59,3 +59,36 @@ Utiliza `.container-fluid` para un contenedor de ancho completo, que abarca todo
   Contenedor fluido
 </div>
 ```
+
+Aquí tienes la traducción con formato del texto:
+
+## Sistema de cuadrícula
+
+El sistema de cuadrícula de Bootstrap utiliza una serie de contenedores, filas y columnas para organizar y alinear el contenido. A continuación, se muestra un ejemplo.
+
+```html
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      Columna
+    </div>
+    <div class="col">
+      Columna
+    </div>
+    <div class="col">
+      Columna
+    </div>
+  </div>
+</div>
+```
+
+
+- `<div class="container text-center">`: Este div se utiliza como un contenedor principal para el contenido. La clase `container` es proporcionada por Bootstrap y se utiliza para crear un contenedor con márgenes laterales automáticos y un ancho máximo. La clase `text-center` se utiliza para centrar el texto dentro del contenedor.
+
+- `<div class="row">`: Este div se utiliza para crear una fila en el sistema de cuadrícula. Las filas se utilizan para agrupar columnas y garantizar que se alineen correctamente.
+
+- `<div class="col">`: Estos divs representan columnas en el sistema de cuadrícula. Las columnas se utilizan para organizar y alinear el contenido dentro de una fila. En este ejemplo, se crean tres columnas del mismo tamaño, ya que no se especifica ninguna clase adicional que indique el ancho específico de cada columna.
+
+Dentro de cada columna, se puede agregar cualquier contenido que se desee. En este caso, se ha colocado el texto "Columna" dentro de cada una de las tres columnas.
+
+En resumen, este código crea un contenedor con texto centrado y dentro de él una fila con tres columnas del mismo tamaño que contienen el texto "Columna". El sistema de cuadrícula de Bootstrap permite crear diseños flexibles y receptivos utilizando contenedores, filas y columnas.
