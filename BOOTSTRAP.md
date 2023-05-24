@@ -97,5 +97,5 @@ Se usa el elemento HTML `<abbr>` para abreviaturas y acrónimos, que muestra la 
 Agrega la clase `.initialism` a una abreviatura para reducir ligeramente el tamaño de fuente.
 
 ```html
-<p>🌐<abbr title="Lenguaje de Marcado de Hipertexto" class="initialism">HTML</abbr></p>
+<p>🌐 <abbr title="Lenguaje de Marcado de Hipertexto" class="initialism">HTML</abbr></p>
 ```
