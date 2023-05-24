@@ -105,7 +105,10 @@ Agrega la clase `.initialism` a una abreviatura para reducir ligeramente el tama
 Las imágenes en Bootstrap se vuelven responsivas utilizando la clase `.img-fluid`. Esto aplica `max-width: 100%;` y `height: auto;` a la imagen para que se ajuste al ancho del elemento padre.
 
 ```html
-<img src="https://i.imgur.com/Po8Aq36.jpg" class="img-fluid" alt="💿">
+<div>
+    <h2>Imágen fluida</h2>
+    <img src="https://i.imgur.com/Po8Aq36.jpg" class="img-fluid" alt="💿">
+</div>
 ```
 
 ## Miniaturas de imágenes
@@ -113,7 +116,10 @@ Las imágenes en Bootstrap se vuelven responsivas utilizando la clase `.img-flui
 Además de nuestras utilidades de `border-radius`, puedes usar la clase `.img-thumbnail` para darle a una imagen un aspecto de borde redondeado de 1px.
 
 ```html
-<img src="https://i.imgur.com/Po8Aq36b.jpg" class="img-thumbnail" alt="💿">
+<div>
+    <h2>Imágen miniatura</h2>
+    <img src="https://i.imgur.com/Po8Aq36b.jpg" class="img-thumbnail" alt="💿">
+</div>
 ```
 
 ## Alineación de imágenes
@@ -121,7 +127,31 @@ Además de nuestras utilidades de `border-radius`, puedes usar la clase `.img-th
 Alinea las imágenes utilizando las clases de ayuda `float` o las clases de alineación de texto. Las imágenes de nivel de bloque se pueden centrar utilizando la clase de utilidad de margen `.mx-auto`.
 
 ```html
-<img src="https://i.imgur.com/Po8Aq36b.jpg" class="rounded float-start" alt="💿">
-<img src="https://i.imgur.com/Po8Aq36b.jpg" class="rounded float-end" alt="💿">
-<img src="https://i.imgur.com/Po8Aq36b.jpg" class="rounded mx-auto d-block" alt="💿">
+<div>
+    <h2>Alineación de imágenes</h2>
+    <img src="https://i.imgur.com/Po8Aq36b.jpg" class="rounded float-start" alt="💿">
+    <img src="https://i.imgur.com/Po8Aq36b.jpg" class="rounded float-end" alt="💿">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Id interdum velit laoreet id donec. Ut enim blandit volutpat maecenas volutpat. Sem integer
+        vitae
+        justo eget magna fermentum iaculis eu non. Habitant morbi tristique senectus et netus. Mus mauris vitae
+        ultricies leo integer malesuada nunc vel. Feugiat pretium nibh ipsum consequat nisl vel. Eu nisl nunc mi
+        ipsum
+        faucibus vitae. Placerat orci nulla pellentesque dignissim enim. Tincidunt eget nullam non nisi. Quam nulla
+        porttitor massa id neque aliquam vestibulum morbi.</p>
+    <p>Euismod in pellentesque massa placerat duis. Nisl nisi scelerisque eu ultrices vitae auctor eu augue ut. Et
+        molestie ac feugiat sed lectus vestibulum. Vehicula ipsum a arcu cursus vitae. Euismod lacinia at quis
+        risus. Ac ut consequat semper viverra nam libero justo laoreet. Erat pellentesque adipiscing commodo elit at
+        imperdiet. Sed lectus vestibulum mattis ullamcorper. Aliquam purus sit amet luctus venenatis lectus magna.
+        Pellentesque eu tincidunt tortor aliquam nulla facilisi cras. Enim sit amet venenatis urna cursus eget.</p>
+</div>
+```
+
+### Centro
+
+```html
+<div>
+    <h2>Imágenes centradas</h2>
+    <img src="https://i.imgur.com/Po8Aq36b.jpg" class="rounded mx-auto d-block" alt="💿">
+</div>
 ```
