@@ -87,3 +87,15 @@ El sistema de cuadrícula de Bootstrap utiliza una serie de contenedores, filas 
 - `<div class="row">`: Este div se utiliza para crear una fila en el sistema de cuadrícula. Las filas se utilizan para agrupar columnas y garantizar que se alineen correctamente.
 
 - `<div class="col">`: Estos divs representan columnas en el sistema de cuadrícula. Las columnas se utilizan para organizar y alinear el contenido dentro de una fila.
+
+Aquí tienes la traducción con formato y emoticones:
+
+## Abreviaturas
+
+Se usa el elemento HTML `<abbr>` para abreviaturas y acrónimos, que muestra la versión expandida al pasar el cursor sobre ellos. Las abreviaturas tienen un subrayado predeterminado y cambian el cursor a una ayuda para proporcionar contexto adicional al pasar el cursor sobre ellas, tanto para los usuarios como para las tecnologías de asistencia.
+
+Agrega la clase `.initialism` a una abreviatura para reducir ligeramente el tamaño de fuente.
+
+```html
+<p>🌐<abbr title="Lenguaje de Marcado de Hipertexto" class="initialism">HTML</abbr></p>
+```
